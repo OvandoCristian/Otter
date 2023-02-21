@@ -1,11 +1,16 @@
 import logo from '../../assets/Imgs/Logo.png';
+import '../../assets/Styles/Header.css';
 
 function Header() {
     return ( 
-        <div>
+        <div className='container'>
             <div>
-                <img src={logo} alt="Logo de la empresa"/>
-                <h1>OTTER</h1>
+                 <div>
+                    <img src={logo} alt="Logo de la empresa"/>
+                 </div>
+                    <div>
+                      <h1>OTTER</h1>
+                    </div>
             </div>
         </div>
      );

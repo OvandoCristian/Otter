@@ -1,7 +1,7 @@
-import LandingPage from '../pages/LandingPage';
+import Home from '../pages/LandingPage';
 function App() {
     return ( 
-    <LandingPage/> 
+        <Home/>
     );
 }
 

@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(91, 179, 83);
+}
+
+
+img{
+    width: 40%;
+}
+
